@@ -580,7 +580,7 @@ body {
 /* social */
 .social {
 	width: 34px;
-	aspect-ratio: 1/1;
+	aspect-ratio: 1;
 	border-radius: 50%;
 	background: #cdcdcd;
 	display: flex;
@@ -605,6 +605,7 @@ body {
 }
 .mobile-menu__social {
 	width: 54px;
+	height: 54px;
 }
 .mobile-menu__social.telegram {
 	background: #2aa1dd;
@@ -733,6 +734,7 @@ body {
 	background: #fff;
 	border-radius: 50%;
 	width: 44px;
+	height: 44px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1402,6 +1404,10 @@ body {
 	}
 	.order-service-form {
 		padding: 70px 10px 20px 10px;
+	}
+	.order-service-form__close-btn {
+		top: 30px;
+		right: 30px;
 	}
 	.news-card {
 		padding: 25px 15px;
