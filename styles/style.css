@@ -146,7 +146,7 @@ body {
 	background: #262d2a;
 	transition: right 0.4s ease;
 	z-index: 1000;
-	padding: 100px 50px 70px 50px;
+	padding: 100px 50px 90px 50px;
 }
 
 .mobile-menu__close {
@@ -239,7 +239,7 @@ body {
 	background: #262d2a;
 	transition: right 0.4s ease;
 	z-index: 1000;
-	padding: 70px 50px 70px 50px;
+	padding: 70px 50px 90px 50px;
 }
 
 .order-service-form__close-btn {
@@ -1403,14 +1403,14 @@ body {
 		grid-area: 4 / 1 / 5 / 3;
 	}
 	.order-service-form {
-		padding: 70px 10px 70px 10px;
+		padding: 70px 10px 90px 10px;
 	}
 	.order-service-form__close-btn {
 		top: 30px;
 		right: 30px;
 	}
 	.news-card {
-		padding: 25px 15px 70px 15px;
+		padding: 25px 15px 90px 15px;
 	}
 }
 @media (max-width: 480px) {
